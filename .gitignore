@@ -62,3 +62,60 @@ out/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Enterprise/Production specific
+*.log
+*.log.*
+logs/
+*.pid
+*.lock
+core.*
+*.core
+*.dmp
+
+# Documentation generated files
+docs/html/
+docs/latex/
+docs/xml/
+*.pdf
+doxygen_warnings.txt
+
+# Package files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+*.msi
+
+# Performance profiling
+*.prof
+*.perf
+perf.data*
+callgrind.out.*
+massif.out.*
+*.gcov
+*.gcda
+*.gcno
+
+# Static analysis
+cppcheck-report.xml
+scan-build-*/
+*.sarif
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.ccache/
+
+# Environment files
+.env
+.env.local
+.env.production
+config.local.*
